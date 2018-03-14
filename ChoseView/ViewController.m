@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SelectView.h"
 @interface ViewController ()
 
 @end
@@ -16,9 +16,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    UIButton * btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 200, 100, 100)];
+    btn.backgroundColor = [UIColor orangeColor];
+    [btn setTitle:@"编辑" forState:0];
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:btn];
+    
 }
 
+- (void)btnClick{
+    
+    
+    
+    SelectView * selecView = [[SelectView alloc] initWithTitleArray:nil andShowCancle:YES];
+    [self.view addSubview:selecView];
+    
+    
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

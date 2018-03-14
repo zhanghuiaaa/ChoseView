@@ -15,6 +15,7 @@
 		C8BAFE5A1FFB642100E0CE6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BAFE591FFB642100E0CE6F /* main.m */; };
 		C8BAFE641FFB642200E0CE6F /* ChoseViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BAFE631FFB642200E0CE6F /* ChoseViewTests.m */; };
 		C8BAFE6F1FFB642200E0CE6F /* ChoseViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BAFE6E1FFB642200E0CE6F /* ChoseViewUITests.m */; };
+		C8BAFE7E1FFB64D800E0CE6F /* SelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BAFE7D1FFB64D800E0CE6F /* SelectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C8BAFE6A1FFB642200E0CE6F /* ChoseViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoseViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BAFE6E1FFB642200E0CE6F /* ChoseViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChoseViewUITests.m; sourceTree = "<group>"; };
 		C8BAFE701FFB642200E0CE6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8BAFE7C1FFB64D700E0CE6F /* SelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectView.h; sourceTree = "<group>"; };
+		C8BAFE7D1FFB64D800E0CE6F /* SelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				C8BAFE551FFB642100E0CE6F /* LaunchScreen.storyboard */,
 				C8BAFE581FFB642100E0CE6F /* Info.plist */,
 				C8BAFE591FFB642100E0CE6F /* main.m */,
+				C8BAFE7C1FFB64D700E0CE6F /* SelectView.h */,
+				C8BAFE7D1FFB64D800E0CE6F /* SelectView.m */,
 			);
 			path = ChoseView;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			files = (
 				C8BAFE4F1FFB642100E0CE6F /* ViewController.m in Sources */,
 				C8BAFE5A1FFB642100E0CE6F /* main.m in Sources */,
+				C8BAFE7E1FFB64D800E0CE6F /* SelectView.m in Sources */,
 				C8BAFE4C1FFB642100E0CE6F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +438,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChoseView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZYH.ChoseView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChoseView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZYH.ChoseView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
